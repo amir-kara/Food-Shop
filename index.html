@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lalezar&family=Lexend:wght@100..900&family=Poly:ital@0;1&display=swap"
+        rel="stylesheet">
+    <title>Lale Shop</title>
+</head>
+
+
+
+<style>
+    body {
+        font-family: Lexend;
+    }
+</style>
+
+
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="row py-2 align-items-center">
+                <div class="col-lg-4">
+                    <h5 class="py-2">Site Name</h5>
+                </div>
+
+
+                <div class="col-lg-8">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark active" aria-current="page" href="#">Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-dark">Login</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Section 1 -->
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-lg-6">
+                <h1>Landing page title</h1>
+                <p>
+                    Subheading that sets up context, shares more info about the website, or
+                    generally gets people psyched to keep scrolling.
+                </p>
+                <button type="button" class="btn btn-dark my-2">Button</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Carousel -->
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imgs/f-1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/f-2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/f-4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Cards Section -->
+    <div class="container pb-5">
+        <h2 class="py-4">Section heading</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imgs/c-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Subheading</h5>
+                        <p class="card-text">Body text for whatever you’d like
+                            to add more to the subheading.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imgs/c-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Subheading</h5>
+                        <p class="card-text">Body text for whatever you’d like
+                            to expand on the main point.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imgs/c-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Subheading</h5>
+                        <p class="card-text">Body text for whatever you’d like
+                            to share more.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Accardion Section -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h3 class="py-3">Section heading</h3>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                <strong>Subheading</strong>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <strong>first item's body.</strong> Body text for whatever you’d
+                                like to expand
+                                on the main point.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                <strong>Subheading</strong>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <strong>Body text for whatever you’d like to say. Add
+                                    main takeaway points, quotes, anecdotes.</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                <strong>Subheading</strong>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Body text for whatever you’d like to add more
+                                to the main point. It provides details,
+                                explanations, and context.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <img class="img-fluid" src="imgs/a-1.png" alt="">
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- Second Card Section -->
+    <div class="container py-5">
+        <h2 class="py-4">Section heading</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card mb-3" style="max-width: 1000px;">
+                    <div class="row g-0">
+                        <div class="col-lg-4">
+                            <img src="imgs/c(2)-2.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Subheading</h5>
+                                <p class="card-text">Body text for whatever you’d like to add more to
+                                    the subheading.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-6">
+                <div class="card mb-3" style="max-width: 1000px;">
+                    <div class="row g-0">
+                        <div class="col-lg-4">
+                            <img src="imgs/c(2)-1.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Subheading</h5>
+                                <p class="card-text">Body text for whatever you’d like to add more to
+                                    the subheading. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card mb-3" style="max-width: 1000px;">
+                    <div class="row g-0">
+                        <div class="col-lg-4">
+                            <img src="imgs/c(2)-3.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Subheading</h5>
+                                <p class="card-text">Body text for whatever you’d like to expand on
+                                    the main point.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-6">
+                <div class="card mb-3" style="max-width: 1000px;">
+                    <div class="row g-0">
+                        <div class="col-lg-4">
+                            <img src="imgs/c(2)-4.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Subheading</h5>
+                                <p class="card-text">Body text for whatever you’d like to expand on
+                                    the main point.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Comment Section -->
+    <div class="container py-5">
+        <h2 class="py-4">Section heading</h2>
+        <div class="row">
+            <div class="col-lg-3 py-2">
+                <div class="card" style="width: 19rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Not Good</h5>
+                        <p class="card-text">A negative Comment.</p>
+                        <div class="row">
+                            <div class="col-lg-2 py-1">
+                                <img src="imgs/icon/pro-1.png" alt="">
+                            </div>
+
+                            <div class="col-lg-10 px-3 py-3 text-secondary">
+                                Lale Scandari
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 py-2">
+                <div class="card" style="width: 19rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text-success">Great</h5>
+                        <p class="card-text">A fantastic bit of feedback.</p>
+                        <div class="row">
+                            <div class="col-lg-2 py-1">
+                                <img src="imgs/icon/pro-2.png" alt="">
+                            </div>
+
+                            <div class="col-lg-10 px-3 py-3 text-secondary">
+                                Jack Sparrov
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 py-2">
+                <div class="card" style="width: 19rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">So-So</h5>
+                        <p class="card-text">A genuinely glowing review.</p>
+                        <div class="row">
+                            <div class="col-lg-2 py-1">
+                                <img src="imgs/icon/pro-3.png" alt="">
+                            </div>
+
+                            <div class="col-lg-10 px-3 py-3 text-secondary">
+                                Lale Scandari
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+    <!-- Newsletter Section -->
+    <div class="my-5 py-5" style="background-color: #e9ecef;">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-lg-4">
+                    <h2 class="py-2">Section heading</h2>
+                </div>
+
+                <div class="col-lg-4"></div>
+
+                <div class="col-lg-4" style="text-align: right;">
+                    <button type="button" class="btn btn-dark btn-lg m-2 p-2">button</button>
+                    <button type="button" class="btn btn-secondary btn-lg m-2 p-2">Secondary button</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="container text-secondary">
+        <div class="row">
+            <div class="col-lg-6">
+                <h5>Lale Shop</h5>
+                <div class="py-5" style="float: left;">
+                    <img class="img-fluid px-1" src="imgs/icon/telegram.png" alt="">
+                    <img class="img-fluid px-1" src="imgs/icon/linkedin.png" alt="">
+                    <img class="img-fluid px-1" src="imgs/icon/x.png" alt="">
+                    <img class="img-fluid px-1" src="imgs/icon/youtube.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <ul class="list-unstyled">
+                            <li class="text-dark">Topic</li>
+                            <li>Page</li>
+                            <li>Page</li>
+                            <li>Page</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <ul class="list-unstyled">
+                            <li class="text-dark">Topic</li>
+                            <li>Page</li>
+                            <li>Page</li>
+                            <li>Page</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <ul class="list-unstyled">
+                            <li class="text-dark">Topic</li>
+                            <li>Page</li>
+                            <li>Page</li>
+                            <li>Page</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JS-scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+
+</html>
